@@ -1,0 +1,109 @@
+﻿<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Administração das Notas Fiscais do Emitente</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">Administração</li>
+                <li class="breadcrumb-item active">NFe do emitente</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="row mt-4">
+
+                            <div class="col-md-2">
+                                <label for="dataDe" class="form-label required">Data de</label>
+                                <input type="date" class="form-control" id="dataDe">
+                            </div>
+
+                            <div class="col-md-2">
+                                <label for="dataAte" class="form-label required">Data até</label>
+                                <input type="date" class="form-control" id="dataAte">
+                            </div>
+
+                            <div class="col-md-2 text-center">
+                                <button class="btn btn-primary btn-sm btn-sm-margins" id="btnConsultar"><i class="bi bi-search"></i> Consultar</button>
+                            </div>
+
+                        </div>
+
+                        <div class="ms-2 mt-4" id="statusMsg"></div>
+                        <hr />
+
+                        <!-- Table -->
+                        <table class="table" id="tableXmlNfe">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nº NFe</th>
+                                    <th scope="col" class="text-center">Data de Emissão</th>
+                                    <th scope="col">Nome do destinatário CNPJ/CPF</th>
+                                    <th scope="col">Natureza da operação</th>
+                                    <th scope="col" class="text-end">Valor Total</th>
+                                    <th scope="col" class="text-end">Valor ICMS</th>
+                                    <th scope="col" class="text-end">Valor IPI</th>
+                                    <th scope="col" class="text-end">Valor PIS</th>
+                                    <th scope="col" class="text-end">Valor Cofins</th>
+                                    <th scope="col" class="text-center">cStat</th>
+                                    <th scope="col">Manif.</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyXmlNfe">
+                            </tbody>
+                        </table>
+                        <!-- End Table -->
+
+                        <div class="row mt-4">
+                            <hr />
+                            <label class="form-label fw-bolder mb-0">Resumo</label>
+                            <div class="col-md-2 mt-3">
+                                <label for="nfeQtde" class="form-label">Qtde de NFe</label>
+                                <input type="text" class="form-control text-center" id="nfeQtde" disabled>
+                            </div>
+
+                            <div class="col-md-2 mt-3">
+                                <label for="nfeFaltantes" class="form-label">Qtde NFe faltantes</label>
+                                <input type="text" class="form-control text-center" id="nfeFaltantes" disabled>
+                            </div>
+
+                            <div class="col-md-2 mt-3">
+                                <label for="nfeValorNfe" class="form-label">Valor NFe</label>
+                                <input type="text" class="form-control text-center" id="nfeValorNfe" disabled>
+                            </div>
+
+                            <div class="col-md-2 mt-3">
+                                <label for="nfeValorIcms" class="form-label">Valor ICMS</label>
+                                <input type="text" class="form-control text-center" id="nfeValorIcms" disabled>
+                            </div>
+
+                            <div class="col-md-2 mt-3">
+                                <label for="nfeValorIpi" class="form-label">Valor IPI</label>
+                                <input type="text" class="form-control text-center" id="nfeValorIpi" disabled>
+                            </div>
+
+                            <div class="col-md-2 mt-3">
+                                <label for="nfeValorPis" class="form-label">Valor PIS</label>
+                                <input type="text" class="form-control text-center" id="nfeValorPis" disabled>
+                            </div>
+                            <div class="col-md-2 mt-3">
+                                <label for="nfeValorCofins" class="form-label">Valor COFINS</label>
+                                <input type="text" class="form-control text-center" id="nfeValorCofins" disabled>
+                            </div>
+
+                        </div>
+
+                        <span id="resultMsg"></span>
+                    </div><!-- End card-body -->
+                </div>
+            </div>
+        </div>
+    </section>
+</main><!-- End #main -->
+

@@ -1,0 +1,96 @@
+﻿<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Upload de notas fiscais protocoladas</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">Notas fiscais</li>
+                <li class="breadcrumb-item active">Upload</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <label for='inputXmlFile' id="btn-xmlFile" class="btn btn-primary btn-sm btn-sm-margins ms-2"><i class="bi bi-search"></i> Selecionar XML NFe</label>
+                                <input type="file" multiple class="d-none" accept="text/xml" id="inputXmlFile" />
+                            </div>
+
+                            <div class="col-md-2 text-center">
+                                <button class="btn btn-primary btn-sm btn-sm-margins" id="btnUpload"><i class="bi bi-cloud-upload"></i> Upload</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                        <div class="ms-2 mt-4" id="statusMsg"></div>
+                        <hr />
+
+                        <!-- Table -->
+                        <table class="table" id="tableXmlNfeProtocoladas">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Chave SEFAZ</th>
+                                    <th scope="col" class="text-center">Data de Emissão</th>
+                                    <th scope="col">Nome do destinatário</th>
+                                    <th scope="col">Natureza da operação</th>
+                                    <th scope="col" class="text-end">Valor Total</th>
+                                    <th scope="col" class="text-center">cStat</th>
+                                    <th scope="col">Env.</th>
+                                    <th scope="col" class="d-none">File Name</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyXmlNfeProtocoladas">
+                            </tbody>
+                        </table>
+                        <!-- End Table -->
+
+                        <!-- Table -->
+                        <table class="table mt-5" id="tableXmlInvalidos">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome do arquivo</th>
+                                    <th scope="col">Motivo da rejeição</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyXmlInvalidos">
+                            </tbody>
+                        </table>
+                        <!-- End Table -->
+
+                        <span id="resultMsg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main><!-- End #main -->
+
+<!-- Modal Delete item -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Excluir</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <input type="hidden" id="id" name="id" value="0">
+            <div class="modal-body">
+                <p id="item-delete-name"></p>
+                Deseja execluir?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-danger" id="delete" name="delete">Excluir</button>
+            </div>
+        </div>
+    </div>
+</div>

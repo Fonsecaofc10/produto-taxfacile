@@ -1,0 +1,8 @@
+Verificar se tem assinatura eletronica e/ou protocolo OK
+Nos itens do produto as tags NCM e CST estão preenchidas
+Verificar se esta NF já não foi lançada no BD anteriormente. OK
+Verificar se a soma dos produtos batem com os totais
+Verificar se a soma dos impostos (icms/ipi/pis/cofins) batem com os totais dos impostos.
+Validar totalização da nf produtos+frete+seguro+ipi
+Validar CNPJ Destinatário e Transportadora.
+Confirme o ambiente se está em produção OK

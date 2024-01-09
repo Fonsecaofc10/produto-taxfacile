@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAg6o1JSt0RkCCTg/oHQADrAAAAAACAAAAAAAQZgAAAAEAACAAAABKhyNbQ2TukyhRcdkuYHsFT8Lf2ej6F8tzI5n3HxyytAAAAAAOgAAAAAIAACAAAADWtTaDtBA/vsmfrm9Vifzx0orniR5n+XzCjadAe5m61TAAAACmivyPUON1x7a/hKuPRF1aiq2y5ZIeX27OMMJhmXtJGKC3z0nNSGqPa59VsscO5iFAAAAAJeOR21xVfQkVMengSNhhxPsDCcSt4x2ocSo4yobN2BmlBKMcwipCxKzzXUWgjpAgSUUaS9b3d0v0FJA3lr74AQ==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://144.217.170.238/orc.net.br/wwwroot/apitax</_PublishTargetUrl>
+    <History>True|2023-12-12T12:45:26.8599200Z;True|2023-12-11T14:33:12.9387697-03:00;True|2023-12-11T14:17:43.4497327-03:00;True|2023-12-10T18:06:25.5644825-03:00;True|2023-12-09T18:01:32.4402500-03:00;False|2023-12-09T16:45:17.3324142-03:00;False|2023-12-09T16:24:16.0875428-03:00;True|2023-12-09T12:56:08.3313366-03:00;False|2023-12-09T12:55:00.7400811-03:00;True|2023-12-09T12:28:57.2343063-03:00;False|2023-12-09T12:26:04.6218271-03:00;True|2023-12-09T12:06:38.5276407-03:00;False|2023-12-09T12:05:02.2285280-03:00;True|2023-12-09T12:03:11.6551275-03:00;False|2023-12-09T12:02:31.8193215-03:00;True|2023-12-09T11:43:24.8148392-03:00;False|2023-12-09T11:42:23.9161456-03:00;True|2023-12-09T11:39:14.7214253-03:00;False|2023-12-09T11:38:36.3031569-03:00;True|2023-12-09T11:35:09.2750601-03:00;False|2023-12-09T11:32:52.2314977-03:00;True|2023-12-09T11:30:18.1184517-03:00;True|2023-12-09T10:56:48.5574790-03:00;False|2023-12-09T10:56:11.5176501-03:00;True|2023-12-09T10:50:12.0705242-03:00;False|2023-12-09T10:49:33.6988698-03:00;True|2023-12-09T10:48:30.6632741-03:00;False|2023-12-09T10:47:50.3954121-03:00;True|2023-12-09T10:41:12.7800322-03:00;False|2023-12-09T10:40:35.6891852-03:00;True|2023-12-09T10:37:04.8771761-03:00;False|2023-12-09T10:36:25.8824314-03:00;True|2023-12-09T10:34:53.2578324-03:00;False|2023-12-09T10:34:13.5741119-03:00;True|2023-12-09T10:30:25.5609812-03:00;False|2023-12-09T10:27:45.9026743-03:00;True|2023-12-09T10:19:49.9031883-03:00;False|2023-12-09T10:19:03.3143158-03:00;True|2023-12-09T10:01:19.8414476-03:00;False|2023-12-09T09:59:40.2609633-03:00;True|2023-12-09T09:54:35.4703536-03:00;False|2023-12-09T09:53:57.0036205-03:00;True|2023-12-09T09:50:18.1874467-03:00;False|2023-12-09T09:49:37.5084324-03:00;True|2023-12-09T09:39:20.6983671-03:00;False|2023-12-09T09:37:51.7104395-03:00;True|2023-12-09T09:35:03.7954439-03:00;True|2023-12-09T09:32:56.9696541-03:00;True|2023-12-09T09:30:29.8283557-03:00;False|2023-12-09T09:28:41.3128051-03:00;True|2023-12-09T09:26:08.5842233-03:00;False|2023-12-09T09:25:30.5832009-03:00;True|2023-12-09T09:21:00.5801923-03:00;False|2023-12-09T09:20:21.3644776-03:00;True|2023-12-09T09:13:47.3673370-03:00;True|2023-12-09T09:05:34.7984691-03:00;False|2023-12-09T09:04:43.3769743-03:00;True|2023-12-09T09:03:20.0970538-03:00;False|2023-12-09T09:02:42.0467600-03:00;True|2023-12-09T09:01:04.5420425-03:00;False|2023-12-09T09:00:27.5304177-03:00;True|2023-12-09T08:57:54.6069601-03:00;True|2023-12-09T08:54:40.5973826-03:00;True|2023-12-09T08:51:34.0964859-03:00;True|2023-12-09T08:45:14.6452942-03:00;True|2023-12-09T08:42:55.5899422-03:00;True|2023-12-09T08:16:55.4755453-03:00;False|2023-12-09T08:16:16.2111147-03:00;True|2023-12-09T08:13:48.9110090-03:00;False|2023-12-09T08:13:00.8990155-03:00;True|2023-12-09T07:51:29.7878865-03:00;False|2023-12-09T07:50:48.3408534-03:00;True|2023-12-09T07:46:38.1293616-03:00;False|2023-12-09T07:45:56.4164609-03:00;True|2023-12-09T07:40:19.3582166-03:00;True|2023-12-09T06:54:42.4466926-03:00;False|2023-12-09T06:54:04.5260745-03:00;True|2023-12-09T06:45:06.4442271-03:00;False|2023-12-09T06:44:22.8451835-03:00;True|2023-12-09T06:41:04.0727748-03:00;False|2023-12-09T06:40:25.6802803-03:00;True|2023-12-09T06:32:18.7859090-03:00;True|2023-12-08T22:26:45.8505853-03:00;False|2023-12-08T22:25:54.7357656-03:00;True|2023-12-08T22:18:32.6260017-03:00;False|2023-12-08T22:17:05.6030290-03:00;True|2023-12-08T22:00:02.1314315-03:00;False|2023-12-08T21:56:35.9490937-03:00;True|2023-12-08T21:45:53.2861344-03:00;False|2023-12-08T21:34:06.9013846-03:00;True|2023-12-08T21:22:07.7345385-03:00;False|2023-12-08T21:21:26.5069788-03:00;True|2023-12-08T21:14:28.5860673-03:00;False|2023-12-08T21:13:50.1697339-03:00;True|2023-12-08T20:56:19.3800422-03:00;False|2023-12-08T20:55:17.4552961-03:00;True|2023-12-08T20:39:45.2365638-03:00;False|2023-12-08T20:36:00.1649425-03:00;True|2023-12-08T20:01:51.5289695-03:00;False|2023-12-08T19:54:34.0462517-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/03/2023 08:16:14</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>12/10/2023 12:35:32</publishTime>
+    </File>
+    <File Include="AWSSDK.Core.dll">
+      <publishTime>11/09/2022 13:47:34</publishTime>
+    </File>
+    <File Include="AWSSDK.SecurityToken.dll">
+      <publishTime>11/09/2022 13:47:36</publishTime>
+    </File>
+    <File Include="DnsClient.dll">
+      <publishTime>06/10/2022 17:37:22</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 17:14:12</publishTime>
+    </File>
+    <File Include="MongoDB.Bson.dll">
+      <publishTime>10/09/2023 18:56:44</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.Core.dll">
+      <publishTime>10/09/2023 18:56:48</publishTime>
+    </File>
+    <File Include="MongoDB.Driver.dll">
+      <publishTime>10/09/2023 18:56:54</publishTime>
+    </File>
+    <File Include="MongoDB.Libmongocrypt.dll">
+      <publishTime>06/01/2023 14:28:20</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 04:09:54</publishTime>
+    </File>
+    <File Include="runtimes/linux/native/libmongocrypt.so">
+      <publishTime>05/09/2023 10:05:12</publishTime>
+    </File>
+    <File Include="runtimes/osx/native/libmongocrypt.dylib">
+      <publishTime>05/09/2023 10:05:28</publishTime>
+    </File>
+    <File Include="runtimes/win/native/mongocrypt.dll">
+      <publishTime>05/09/2023 10:04:40</publishTime>
+    </File>
+    <File Include="SharpCompress.dll">
+      <publishTime>11/22/2021 06:21:32</publishTime>
+    </File>
+    <File Include="Snappier.dll">
+      <publishTime>01/23/2021 14:43:32</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>01/11/2023 03:48:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>01/11/2023 03:48:24</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>01/11/2023 03:49:02</publishTime>
+    </File>
+    <File Include="TaxEasyAPI.deps.json">
+      <publishTime>12/10/2023 18:05:13</publishTime>
+    </File>
+    <File Include="TaxEasyAPI.dll">
+      <publishTime>12/10/2023 18:05:13</publishTime>
+    </File>
+    <File Include="TaxEasyAPI.exe">
+      <publishTime>12/10/2023 18:05:13</publishTime>
+    </File>
+    <File Include="TaxEasyAPI.pdb">
+      <publishTime>12/10/2023 18:05:13</publishTime>
+    </File>
+    <File Include="TaxEasyAPI.runtimeconfig.json">
+      <publishTime>12/10/2023 18:05:14</publishTime>
+    </File>
+    <File Include="TaxFacileAPI.deps.json">
+      <publishTime>12/12/2023 09:44:06</publishTime>
+    </File>
+    <File Include="TaxFacileAPI.dll">
+      <publishTime>12/12/2023 09:44:05</publishTime>
+    </File>
+    <File Include="TaxFacileAPI.exe">
+      <publishTime>12/12/2023 09:44:05</publishTime>
+    </File>
+    <File Include="TaxFacileAPI.pdb">
+      <publishTime>12/12/2023 09:44:05</publishTime>
+    </File>
+    <File Include="TaxFacileAPI.runtimeconfig.json">
+      <publishTime>12/11/2023 14:16:21</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/12/2023 09:44:10</publishTime>
+    </File>
+    <File Include="ZstdSharp.dll">
+      <publishTime>08/02/2022 16:04:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

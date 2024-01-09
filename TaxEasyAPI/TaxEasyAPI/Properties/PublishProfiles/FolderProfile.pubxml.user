@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\taxeasyApi</_PublishTargetUrl>
+    <History>True|2023-12-08T20:41:52.9891004Z;True|2023-12-08T17:07:33.8044231-03:00;False|2023-12-08T16:53:47.8115639-03:00;True|2023-12-08T16:46:55.0453828-03:00;True|2023-12-07T14:57:46.8585281-03:00;True|2023-11-25T15:11:39.8165062-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
